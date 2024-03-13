@@ -14,7 +14,7 @@ documentation = "https://docs.rs/into_query_derive/0.1.0/into_query_derive/index
 proc-macro = true
 
 [dependencies]
-diesel = { version = "1.4.5" }
+diesel = { version = "2.1.4" }
 syn = {version = "1.0", features = ["parsing", "proc-macro", "extra-traits"]}
 quote = "1.0"
 proc-macro2 = "1.0.24"
